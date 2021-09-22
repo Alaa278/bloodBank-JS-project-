@@ -1,0 +1,274 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <title>Donor Regestration - تسجيل متبرع</title>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="nav2 navbar navbar-expand-lg fixed-top  p-2">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-2" href="#">أنقذ حياة <span class="logo"></span></a>
+                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse"
+                    data-target="#navbar-togglerDemo02" aria-controls="navbar-togglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line" style="margin-bottom: 0;"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-togglerDemo02">
+                    <ul class="navbar-nav myArb">
+                        <li class="nav-item active p-2 ">
+                            <a class="nav-link " href="Arabic.html"> الرئيسية<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active p-2">
+                            <a class="nav-link" href="tasgeel.html">تسجيل متبرع <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active p-2">
+                            <a class="nav-link" href="talab.html">طلب متطوع <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active p-2">
+                            <a class="nav-link " href="talam.html">تعلم المزيد <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active bor">
+                            <a class="nav-link" href="twasal.html"> <span class="badge badge-secondary"> للتواصل بنا
+                                </span> <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    
+       
+      
+    
+        <section id="reg" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 donnerReg p-4 shadow">
+                        <div class="borderHover">
+                            <h2 id="heading" class=" mt-3 text-center">تسجيل المتبرعين</h2>
+                            <div class="hBorder m-auto"></div>
+                        </div>
+                        <form class="mt-5 px-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputName" placeholder="ادخل اسمك">
+                                <small id="passwordHelpBlock" class="form-text text-muted">
+                                    يجب أن يكون اسمك 4-20 حرفاً، ويحتوي على أحرف ومسافات، ويجب ألا يحتوي على أحرف خاصة، أو رمز تعبيري، ويجب أن يكون الحرف الأول حالة جمل.
+                                </small>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class=" form-control" id="inputAddress" placeholder="العنوان تفصيلى">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="alaa form-control phoneNum" id="inputPhone"
+                                        placeholder="رقم التليفون">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control phoneNum" id="inputPhone2"
+                                        placeholder="رقم ثانى ">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="inputAge" placeholder="العمر">
+                                    <small id="passwordHelpBlock" class="form-text text-muted">
+                                        يجب أن يكون عمرك 18-65 سنة، يحتوي على أرقام فقط.
+                                    </small>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="inputweight" placeholder="الوزن">
+                                    <small id="passwordHelpBlock" class="form-text text-muted">
+                                        يجب أن يكون وزنك 40-150 كجم، ويحتوي على أرقام فقط.
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <select id="inputState" class="form-control alert-dark">
+                                        <option selected>فصيلة الدم</option>
+                                        <option>O+</option>
+                                        <option>O-</option>
+                                        <option>B+</option>
+                                        <option>B-</option>
+                                        <option>A+</option>
+                                        <option>A-</option>
+                                        <option>AB+</option>
+                                        <option>AB-</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select id="inputState" class="form-control alert-dark">
+                                        <option selected>هل انت مدخن؟</option>
+                                        <option>نعم</option>
+                                        <option>لا</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select id="inputState" class="form-control alert-dark">
+                                        <option selected>وقت الاتصال المتاح لديك</option>
+                                        <option>24 ساعة</option>
+                                        <option>من الساعة 8ص حتى ال 3م</option>
+                                        <option>من الساعة ال3م الى ال11م/option>
+                                    </select>
+                                </div>
+                            </div>
+    
+                            <div class="form-group text-center ">
+                                <label class="form-check-label check">طرق الاتصال:</label>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1"> رسائل قصيرة
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2"> اتصال تلفونى
+                                    </label>
+                                </div>
+                            </div>
+    
+                            <div class="form-group text-center ">
+                                <label class="form-check-label check">الجنس:</label>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1"> ذكر
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2"> انثى
+                                    </label>
+                                </div>
+                            </div>
+                            <button id="addBtn" type="submit" class="btn  btn-lg rounded-0 px-5"> ارسال</button>
+                        </form>
+    
+    
+                    </div>
+                    <div class="col-md-1"></div>
+    
+    
+                </div>
+            </div>
+        </section>
+
+          <!-------------------------------------------------------------------->
+
+          <footer id="footer ">
+            <div class="mainFooter pt-5 px-5">
+                <div class="container-fluid py-3">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6 pb-2 pr-5">
+                            <div>
+                                <h4 class="text-white">من نحن</h4>
+                                <div>
+                                    <p>الهدف من المؤسسة تخفيف المعاناة الإنسانية خاصة في مجالات الإغاثة ومواجهة الكوارث
+                                        ومجالات الصحة العامة والمجتمعية.
+                                        نشر مفاهيم القانون الدولي الإنساني بين فئات المجتمع المختلفة، والدعوة إلى إعمال
+                                        أحكام ذلك القانون، ونشر الوعى بأحكام اتفاقيات جنيف وبروتوكولاته
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pb-2 ">
+                            <div>
+                                <h4 class="text-white">ساعات العمل</h4>
+                                <div>
+                                    <ul class="p-0">
+                                        <li> <i class="fas fa-angle-right"> </i> السبت: 11:00 - 14:00</li>
+                                        <li><i class="fas fa-angle-right"> </i>الاحد: 11:00 - 14:00</li>
+                                        <li><i class="fas fa-angle-right"> </i> الاثنين: 11:00 - 14:00</li>
+                                        <li><i class="fas fa-angle-right"> </i> الثلاثاء: 11:00 - 14:00</li>
+                                        <li><i class="fas fa-angle-right"> </i>الجمعة: مغلق</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pb-2">
+                            <div>
+                                <h4 class="text-white">الصفحات</h4>
+                                <div>
+                                    <ul class="p-0">
+                                        <li> <i class="fas fa-angle-right"></i> <a href="Arabic.html">الرئسية </a></li>
+                                        <li> <i class="fas fa-angle-right"></i> <a href="tasgeel.html">تسجيل متبرع</a> </li>
+                                        <li> <i class="fas fa-angle-right"></i> <a href="talab.html"> طلب متطوع </a>
+                                        </li>
+                                        <li> <i class="fas fa-angle-right"></i> <a href="talam.html">لمعرفة المزيد</a> </li>
+                                        <li> <i class="fas fa-angle-right"></i> <a href="twasal.html">اتصل بنا</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pb-2">
+                            <h4 class="text-white">تواصل معنا </h4>
+                            <div>
+                                <div> <i class="fas fa-map-marker-alt pl-2"></i>
+                                    امتداد شارع عبد الرازق السنهوري - مدينة نصر - القاهرة - 11371 - ج.م.ع.</div>
+                                <div class="pt-3 phone "> <i class="fas fa-phone-alt pl-1"></i>:
+                                   <span class="pr-2"> +(20) 2 25985555</span></div>
+                                <div class="pt-3 phone "> <i class="fas fa-envelope pl-2"></i>hello@saveLife.com</div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="footerBottom pt-4 pb-3 px-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <p> حقوق الطبع والنشر 2020. جميع الحقوق محفوظة.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="soialIcon float-right px-5 myArb">
+                                <a><i class="fab fa-facebook-f i1"></i> </a>
+                                <a> <i class="fab fa-google i2"></i></a>
+                                <a> <i class="fab fa-linkedin-in i3"></i> </a>
+                                <a> <i class="fab fa-twitter i4"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+    
+        </footer>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
